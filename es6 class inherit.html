@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class inherit</title>
+</head>
+<body>
+    <script>
+        //Single inheritance:
+
+
+        // class Details{
+        //     constructor(name){
+        //         this.firstName=name;
+        //     }
+        //     currentName(){
+        //         return 'My name is '+this.firstName;
+        //     }
+        // }
+
+        // class age extends Details{
+        //     constructor(name,age){
+        //         super(name);
+        //         this.age=age;
+        //     }
+        //     currentAge(){
+        //         return this.currentName() + 'and my age is '+ this.age
+        //     }
+        // }
+        //  const myDetails= new age("Sreejakumar",21);
+        // document.write(myDetails.currentAge())
+
+
+
+
+
+
+        
+        //Hierarchical inheritance:
+
+
+        // class Details{
+        //     constructor(name){
+        //         this.firstName=name;
+        //     }
+        //     currentName(){
+        //         return ' My name is  '+ this.firstName;
+        //     }
+        // }
+
+        // class age extends Details{
+        //     constructor(name,age){
+        //         super(name);
+        //         this.age=age;
+        //     }
+        //     currentAge(){
+        //         return this.currentName()  + '   and my age is '+ this.age  +'.'
+        //     }
+        // }
+      
+        // class place extends Details{
+        //     constructor(name,place){
+        //         super(name);
+        //         this.place=place;
+        //     }
+        //     currentPlace(){
+        //         return this.currentName( ) + '  and Im coming from  ' + this .place
+        //     }
+        // }
+
+        // const myDetails=new place("Sreejakumar","ooty");
+        // document.write(myDetails.currentPlace());
+
+        // const newDetails=new age ("Sreejakumar",21);
+        // document.write(newDetails.currentAge());
+
+
+
+
+
+
+
+
+        //Multiple inheritance:
+
+        // class Details{
+        //     constructor(name){
+        //         this.FirstName=name;
+        //     }
+        //     currentName(){
+        //         return 'My name is '+ this.FirstName;
+        //     }
+        // }
+
+        // class age extends Details{
+        //     constructor(name,age){
+        //         super(name);
+        //         this.age=age;
+        //     }
+        //     currentAge(){
+        //         return this.currentName() + ' my age is '+ this.age;
+        //     }
+        // }
+
+        // class place extends age{
+        //     constructor(age,place){
+        //         super(name);
+        //         this.place=place;
+        //     }
+        //     currentPlace(){
+        //         return ' and Im coming from' + this.place;
+        //     }
+        // }
+
+        // class hobbies extends place{
+        //     constructor(place,hobbies){
+        //         super(name);
+        //         this.hobbies=hobbies;
+        //     }
+        //     currentHobbies(){
+        //         return ' I love'+ this.hobbies +'.';
+        //     }
+        // }
+
+
+        
+        // const newDetails=new age ("Sreejakumar",21);
+        // document.write(newDetails.currentAge())
+
+        // const myDetails=new place(21,"Ooty");
+        // document.write(myDetails .currentPlace());
+
+        // const myDetails1=new hobbies("Ooty","Dancing");
+        // document.write(myDetails1.currentHobbies());
+
+     </script>
+</body>
+</html>
